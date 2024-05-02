@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@google-cloud/aiplatform": "^3.17.0",
+    "@google-cloud/vertexai": "^0.5.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "express": "~4.16.1",
+    "firebase": "^10.10.0",
+    "firebase-admin": "^12.0.0",
+    "jsonrepair": "^3.7.0",
+    "mongoose": "^8.2.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "2",
+    "node-llama-cpp": "^2.8.8",
+    "openai": "^4.28.4",
+    "uid2": "^1.0.0"
+  }
+}

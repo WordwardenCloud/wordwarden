@@ -1,0 +1,67 @@
+.rightBar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: calc(100vh - 81px);
+  display: flex;
+  align-items: self-end;
+  z-index: 20;
+  transition: 0.2s ease-in-out;
+}
+.rightModalHidden {
+  transform: translateX(315px);
+}
+.opener {
+  position: absolute;
+  top: 104px;
+  right: 24px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  z-index: 100;
+}
+.opener:hover {
+  cursor: pointer;
+}
+.openerImage {
+  height: 20px;
+  padding: 1px;
+}
+.openerText {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; 
+  margin-right: 4px;
+}
+.threadDivContainer {
+  width: 314px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  padding-top: 84px;
+  z-index: 100;
+  background-color: #FAFAFA;
+}
+.threadDiv {
+  width: 314px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  padding: 0 16px;
+  z-index: 100;
+  background-color: #FAFAFA;
+  overflow-y: scroll;
+}
+.threadDiv::-webkit-scrollbar {
+  display: none;
+}

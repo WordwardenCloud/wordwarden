@@ -1,0 +1,219 @@
+.navbar {
+  width: 100%;
+  padding: 24px;
+  z-index: 90;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newNoteButton {
+  border-radius: 12px;
+  border: 1px solid var(--Divider, #EAECEF);
+  display: flex;
+  padding: 8px;
+  margin-left: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+.newNoteButton:hover {
+  background: #ECEEEC;
+}
+.googleSignin {
+  border-radius: 4px;
+  border: 1px solid #EAECEF;
+  background: #FFF;
+  display: flex;
+  height: 40px;
+  padding: 10px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+.googleSignin:hover {
+  cursor: pointer;
+}
+.googleLogo {
+  width: 16px;
+}
+.signinText {
+  color: #1F1F1F;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightContainer {
+  display: flex;
+  align-items: center;
+}
+.lastUpdated {
+  color: var(--Neutral-N40, #CFD4DA);
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 270%;
+}
+.divider {
+  height: 16px;
+  margin: 0 16px 0 24px;
+}
+.settingsButton {
+  border-radius: 12px;
+  border: none;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+.settingsButton:hover {
+  background: #ECEEEC;
+}
+.buttonImg {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.infos {
+  height: 100%;
+  display: flex;
+}
+.countContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.counts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  border-right: 1px solid var(--lightGrey);
+  padding-right: 2vw;
+}
+.counter {
+  text-align: end;
+}
+.count {
+  font-weight: bold;
+}
+.accountContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+} 
+.account {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2vw;
+}
+.status {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.online {
+  height: 9px;
+  width: 9px;
+  background-color: rgb(34 197 94);
+  border-radius: 9999px;
+  display: inline-block;
+  color: transparent;
+  margin-right: 0.5vw;
+}
+.icon {
+  margin-left: 4px;
+}
+.offline {
+  height: 9px;
+  width: 9px;
+  background-color: rgb(221, 56, 38);
+  border-radius: 9999px;
+  display: inline-block;
+  color: transparent;
+  margin-right: 0.5vw;
+}
+.modal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 6vh;
+  right: 0vw;
+  width: 150px;
+  border-left: 1px solid var(--lightGrey);
+  border-bottom: 1px solid var(--lightGrey);
+}
+.modalButton {
+  width: 100%;
+  height: 42px;
+  color: var(--black);
+  font-family: Normal;
+  font-size: 16px;
+  border: none;
+  background-color: #fefefe;
+  cursor: pointer;
+}
+.logModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--lightgrey);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalButton:hover {
+  background-color: var(--lightGrey);
+  width: 100%;
+}
+.log {
+  z-index: 100;
+  width: 35vw;
+  min-width: 500px;
+  background-color: white;
+  border-radius: 30px;
+  height: 50vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logButton {
+  width: 60%;
+  height: 42px;
+  font-family: Normal;
+  font-size: 18px;
+  margin: 16px 0;
+  color: var(--darkGrey);
+  border: 1px solid var(--darkGrey);
+  background-color: transparent;
+  border-radius: 15px;
+}
+.logButton:hover {
+  color: var(--black);
+  border: 1px solid var(--black);
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}

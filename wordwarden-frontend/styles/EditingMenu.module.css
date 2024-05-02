@@ -1,0 +1,44 @@
+.menu {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.menuButton {
+  background-color: transparent;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: 1px solid var(--lightGrey);
+  font-size: 20px;
+  cursor: pointer;
+  width: 40px;
+  color: var(--black);
+}
+.heading1 {
+  font-family: Bold;
+  font-size: 22px;
+  border-left: none;
+}
+.heading2 {
+  font-family: Bold;
+}
+.paragraph {
+  font-family: Normal;
+}
+.bold {
+  font-family: Bold;
+}
+.italic {
+  font-family: Italic;
+}
+.underline {
+  font-family: Normal;
+  text-decoration: underline;
+}
+.bullet {
+  border-right: none;
+  width: 30px;
+}

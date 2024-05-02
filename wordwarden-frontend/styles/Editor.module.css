@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.editor {
+    margin-top: 90px;
+    background-color: white;
+    overflow-y: scroll;
+    padding: 1% 20% 1% 20%;
+    z-index: 1;
+}
+.editor::-webkit-scrollbar {
+    display: none;
+}
+.fullSize {
+    width: 100%;
+    padding: 1% 300px 1% 300px;
+}
+.shrinkSize {
+    width: calc(100%);
+    /* padding: 1% 20% 1% 20%; */
+    padding: 1% 430px 1% 300px;
+}

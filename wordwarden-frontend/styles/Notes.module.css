@@ -1,0 +1,158 @@
+.notesModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  transition: 0.2s ease-in-out;
+  height: 100vh;
+  z-index: 100;
+}
+.container {
+  width: 200px;
+  padding: 24px;
+  overflow-y: scroll;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.notesModalHidden {
+  transform: translateX(calc(-100% + 28px));
+}
+.newNoteButtonBlack {
+  border-radius: 4px;
+  background-color: var(--WordwardenGreen);
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  border: none;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.buttonImage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.notesContainer {
+  height: calc(100vh - 40px - 32px);
+  overflow-y: scroll;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.notesContainer::-webkit-scrollbar {
+  display: none;
+}
+.notes {
+  display: flex;
+  flex-direction: column;
+}
+.profile {
+  height: 32px;
+}
+.opener {
+  width: 30px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notesClosedIcon {
+  height: 16px;
+}
+.notesOpenedIcon {
+  height: 20px;
+}
+.dateCategory {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 270%;
+  margin-top: 8px;
+  color: #121417;
+  margin-bottom: 4px;
+}
+.noteContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.noNotes {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.note {
+  cursor: pointer;
+  font-family: "Open Sans";
+  color: var(--N80);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  margin-bottom: 4px;
+  max-width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+.noteOptionsButton {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  padding: 4px 0 4px 4px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.moreImage {
+  height: 16px;
+  margin-bottom: 3px;
+}
+.hidden {
+  display: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.initial {
+  background-color: var(--WordwardenGreen);
+  color: white;
+  display: flex;
+  min-width: 32px;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--N80);
+}
